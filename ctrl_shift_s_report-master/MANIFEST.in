@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ctrl_shift_s_report *.css
+recursive-include ctrl_shift_s_report *.csv
+recursive-include ctrl_shift_s_report *.html
+recursive-include ctrl_shift_s_report *.ico
+recursive-include ctrl_shift_s_report *.js
+recursive-include ctrl_shift_s_report *.json
+recursive-include ctrl_shift_s_report *.md
+recursive-include ctrl_shift_s_report *.png
+recursive-include ctrl_shift_s_report *.py
+recursive-include ctrl_shift_s_report *.svg
+recursive-include ctrl_shift_s_report *.txt
+recursive-exclude ctrl_shift_s_report *.pyc
